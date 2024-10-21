@@ -10,11 +10,6 @@ function App() {
         <Router>
         <div>
             <header>
-                <div class="header-socials">
-                    <a href="https://github.com/ajhearne-mZAOSW"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/alanahearne/"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="mailto:alanajhearne@gmail"><i class="fa-solid fa-envelope"></i></a>
-                </div>
                 <nav>     
                     <a href="#about-me">about me</a>
                     <a href="#my-work">my work</a>
@@ -30,9 +25,9 @@ function App() {
             </main>
             <footer>
                 <div className="contact-socials">
-                    <a href="https://github.com/ajhearne-mZAOSW"><i className="fa-brands fa-github"></i><p>github.com/ajhearne-mZAOSW</p></a>
-                    <a href="https://www.linkedin.com/in/alanahearne/"><i className="fa-brands fa-linkedin-in"></i><p>linkedin.me/alanahearne</p></a>
-                    <a href="mailto:alanajhearne@gmail"><i className="fa-solid fa-envelope"></i><p>alanajhearne@gmail.com</p></a>
+                    <a href="https://github.com/ajhearne-mZAOSW"><p>GitHub</p></a>
+                    <a href="https://www.linkedin.com/in/alanahearne/"><p>LinkedIn</p></a>
+                    <a href="mailto:alanajhearne@gmail"><p>Email</p></a>
                 </div>
             </footer>
         </div>
