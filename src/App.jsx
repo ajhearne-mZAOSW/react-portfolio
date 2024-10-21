@@ -10,22 +10,24 @@ function App() {
         <Router>
         <div className="bucket-app">
             <header>
-            <nav className="navbar">
-                <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                </ul>
-            </nav>
+                <div class="header-socials">
+                    <a href="https://github.com/ajhearne-mZAOSW"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/alanahearne/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:alanajhearne@gmail"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <nav>     
+                    <a href="#about-me">about me</a>
+                    <a href="#my-work">my work</a>
+                    <a href="#contact-me">contact me</a>
+                    <a href="https://drive.google.com/file/d/15gghPdr3WbTVVuS1-B8_lln9o7RYPqg8/view?usp=drive_link">resume</a>
+                </nav>
             </header>
-
-            <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            </Routes>
+            <main>
+                <Home />
+                <About />
+                <Projects />
+                <Contact />
+            </main>
         </div>
         </Router>
     );

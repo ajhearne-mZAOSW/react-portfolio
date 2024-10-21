@@ -1,4 +1,5 @@
 import React from 'react';
+import avatar from '../assets/images/avatar.png';
 
 const Home = () => (
     <section className="hero">
@@ -6,7 +7,7 @@ const Home = () => (
             <div>
                 <h1>Alana</h1>
             </div>
-            {/* <img src="./assets/images/avatar.png" alt="avatar line drawing"> */}
+            <img src={avatar} alt="avatar line drawing"/>;
         </div>
         <div>
             <p>

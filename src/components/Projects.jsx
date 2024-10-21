@@ -1,4 +1,7 @@
 import React from 'react';
+import horiseon from '../assets/images/horiseon.png';
+import cssCheatsheet from '../assets/images/css-cheatsheet.png';
+import wip from '../assets/images/wip.jpg';
 
 const Projects = () => (
     <section className="my-work" id="my-work">
@@ -12,25 +15,25 @@ const Projects = () => (
         <div className="work-portfolio">
             <div className="main-work">
                 <a href="https://ajhearne-mzaosw.github.io/W01-Challenge/">
-                    {/* <img src="./assets/images/horiseon.png" alt="Horiseon refactor website landing screenshot"> */}
+                    <img src={horiseon} alt="Horiseon refactor website landing screenshot"/>
                     <h3>Horiseon Refactor</h3>
                 </a>
             </div>
             <div className="work">
                 <a href="https://tmkamal.github.io/under-construction-template/">
-                    {/* <img src="./assets/images/css-cheatsheet.png" alt="css-cheatsheet website landing screenshot"> */}
+                    <img src={cssCheatsheet} alt="css-cheatsheet website landing screenshot"/>
                     <h3>CSS Cheatsheet</h3>
                 </a>
                 <a href="https://tmkamal.github.io/under-construction-template/">
-                    {/* <img src="./assets/images/wip.jpg" alt="'website under construction' landing screenshot placeholder"> */}
+                    <img src={wip} alt="'website under construction' landing screenshot placeholder"/>
                     <h3>Coming Soon</h3>
                 </a>
                 <a href="https://tmkamal.github.io/under-construction-template/">
-                    {/* <img src="./assets/images/wip.jpg" alt="'website under construction' landing screenshot placeholder"> */}
+                    <img src={wip} alt="'website under construction' landing screenshot placeholder"/> 
                     <h3>Coming Soon</h3>
                 </a>
                 <a href="https://tmkamal.github.io/under-construction-template/">
-                    {/* <img src="./assets/images/wip.jpg" alt="'website under construction' landing screenshot placeholder"> */}
+                    <img src={wip} alt="'website under construction' landing screenshot placeholder"/>
                     <h3>Coming Soon</h3>
                 </a>
             </div>
