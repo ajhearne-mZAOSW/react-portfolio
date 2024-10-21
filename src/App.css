@@ -16,6 +16,10 @@ header {
     background-color: var(--darkPrimary);
 }
 
+.header {
+    position: absolute;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -245,7 +249,7 @@ footer p {
 }
 
 .contact-socials i {
-    color: var(--darkPrimary);
+    color: var(--offWhite);
     padding: 0px 10px;
     font-size: 30px;
 }
@@ -254,7 +258,7 @@ footer p {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: var(--darkPrimary);
+    color: var(--offWhite);
 }
 
 /* Portfolio showcase attributes */
