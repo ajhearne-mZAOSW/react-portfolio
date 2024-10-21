@@ -71,49 +71,50 @@ const Contact = () => {
                 contact me
             </div>
             <p>
-                Interested in getting in touch? I'd love to hear from you! Head over to LinkedIn to have a look at my career so far, check out my latest work on Github, or drop me an email.
+                Interested in getting in touch? I'd love to hear from you! Head over to LinkedIn to have a look at my career so far, check out my latest work on Github, drop me an email or send me a message below.
             </p>
+            <div className="contact">
+                <form onSubmit={handleSubmit}>
+                    <div>
+                        <label htmlFor="name">Name</label>
+                        <input
+                            type="text"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            placeholder="Your name"
+                        />
+                        {errors.name && <span className="error">{errors.name}</span>}
+                    </div>
 
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name</label>
-                    <input
-                        type="text"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        placeholder="Your name"
-                    />
-                    {errors.name && <span className="error">{errors.name}</span>}
-                </div>
+                    <div>
+                    <label htmlFor="email">Email</label>
+                        <input
+                            type="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            placeholder="Your email"
+                        />
+                        {errors.email && <span className="error">{errors.email}</span>}
+                    </div>
 
-                <div>
-                <label htmlFor="email">Email</label>
-                    <input
-                        type="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        placeholder="Your email"
-                    />
-                    {errors.email && <span className="error">{errors.email}</span>}
-                </div>
-
-                <div>
-                    <label htmlFor="message">Message</label>
-                    <textarea
-                        name="message"
-                        value={formData.message}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        placeholder="Your message"
-                    />
-                    {errors.message && <span className="error">{errors.message}</span>}
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+                    <div>
+                        <label htmlFor="message">Message</label>
+                        <textarea
+                            name="message"
+                            value={formData.message}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            placeholder="Your message"
+                        />
+                        {errors.message && <span className="error">{errors.message}</span>}
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </section>
     );
 };

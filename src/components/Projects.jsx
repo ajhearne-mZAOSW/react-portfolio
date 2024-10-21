@@ -1,7 +1,9 @@
 import React from 'react';
 import horiseon from '../assets/images/horiseon.png';
-import cssCheatsheet from '../assets/images/css-cheatsheet.png';
-import wip from '../assets/images/wip.jpg';
+import weatherDashboard from '../assets/images/weather-dashboard.png';
+import soundSpiral from '../assets/images/sound-spiral.png';
+import personalBlog from '../assets/images/personal-blog.png';
+import taskBoard from '../assets/images/task-board.png';
 
 const Projects = () => (
     <section className="my-work" id="my-work">
@@ -20,20 +22,20 @@ const Projects = () => (
                 </a>
             </div>
             <div className="work">
-                <a href="https://tmkamal.github.io/under-construction-template/">
-                    <img src={cssCheatsheet} alt="css-cheatsheet website landing screenshot"/>
+                <a href="https://ajhearne-mzaosw.github.io/kanban-task-board/">
+                    <img src={taskBoard} alt="css-cheatsheet website landing screenshot"/>
                     <h3>CSS Cheatsheet</h3>
                 </a>
-                <a href="https://tmkamal.github.io/under-construction-template/">
-                    <img src={wip} alt="'website under construction' landing screenshot placeholder"/>
-                    <h3>Coming Soon</h3>
+                <a href="https://ajhearne-mzaosw.github.io/weather-dashboard/">
+                    <img src={weatherDashboard} alt="Weather Dashboard landing screenshot"/>
+                    <h3>Weather Dashboard</h3>
                 </a>
-                <a href="https://tmkamal.github.io/under-construction-template/">
-                    <img src={wip} alt="'website under construction' landing screenshot placeholder"/> 
-                    <h3>Coming Soon</h3>
+                <a href="https://github.com/BenJR546/sound-spiral">
+                    <img src={soundSpiral} alt="Sound Spiral landing screenshot"/>
+                    <h3>Sound Spiral</h3>
                 </a>
-                <a href="https://tmkamal.github.io/under-construction-template/">
-                    <img src={wip} alt="'website under construction' landing screenshot placeholder"/>
+                <a href="https://ajhearne-mzaosw.github.io/personal-blog/">
+                    <img src={personalBlog} alt="personal blog landing screenshot"/>
                     <h3>Coming Soon</h3>
                 </a>
             </div>

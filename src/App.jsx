@@ -9,7 +9,7 @@ function App() {
     return (
         <Router>
         <div>
-            <header className="header">
+            <header>
                 <div class="header-socials">
                     <a href="https://github.com/ajhearne-mZAOSW"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/alanahearne/"><i class="fa-brands fa-linkedin-in"></i></a>
